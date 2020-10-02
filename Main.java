@@ -18,14 +18,14 @@ public class Main {
     Random rand = new Random();
 
     //crete a random number
-    int randNum = rand.nextInt(100) + 1;
+    int randNum = rand.nextInt(1000) + 1;
 
     //declare the guess variable
     int guess;
     //game loop
     do{
       //ask the user for their guess
-      System.out.println("Please guess a numbe between 1 and 100");
+      System.out.println("Please guess a number between 1 and 1000");
       guess = input.nextInt();
       //is it too high or too low
       if(guess > randNum){
